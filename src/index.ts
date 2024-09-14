@@ -16,7 +16,7 @@ const upload = multer();
 // initialize services
 
 app.use(cors({
-    origin: ['http://localhost:3000','https://assignment.stellartech.space'],
+    origin: ['http://localhost:3000','https://assignment-ai.netlify.app'],
     credentials: true
 }))
 
